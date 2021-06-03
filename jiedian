@@ -1,5 +1,5 @@
 http = a1.ap.fastqvpn.com:29980, username=3F17598C-1951-4089-B03A-482AFB1469BB, password=e48ab5b3-bfd9-4f32-b220-f931c365e559, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_1
-http = a2.ap.fastqvpn.com:29980, username=442850138562494464, password=9a13c6af-118b-4740-99b8-95aca992fb0d, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_2
+http = a2.ap.fastqvpn.com:29980, username=442850138562494464, password=e48ab5b3-bfd9-4f32-b220-f931c365e559, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_2
 http = a3.ap.fastqvpn.com:29980, username=442850138562494464, password=9a13c6af-118b-4740-99b8-95aca992fb0d, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_3
 http = a4.ap.fastqvpn.com:29980, username=442850138562494464, password=9a13c6af-118b-4740-99b8-95aca992fb0d, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_4
 http = a5.ap.fastqvpn.com:29980, username=442850138562494464, password=9a13c6af-118b-4740-99b8-95aca992fb0d, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_5
