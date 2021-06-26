@@ -4,7 +4,7 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
-proxies:
+proxies: 
   - {name: 🇭🇰 【FASTQ_A】HK/香港_1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "454782772817428480", password: "f5197760-4b85-4f11-880c-67cecae0f2d6", tls: true, skip-cert-verify: false}
   - {name: 🇭🇰 【FASTQ_A】HK/香港_2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: "454782772817428480", password: "f5197760-4b85-4f11-880c-67cecae0f2d6", tls: true, skip-cert-verify: false}
   - {name: 🇭🇰 【FASTQ_A】HK/香港_3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: "454782772817428480", password: "f5197760-4b85-4f11-880c-67cecae0f2d6", tls: true, skip-cert-verify: false}
