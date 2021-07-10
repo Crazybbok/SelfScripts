@@ -1,3 +1,4 @@
+http = jc.ap.fastqvpn.com:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇭🇰香港JC
 http = a1.ap.fastqvpn.com:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_1
 http = a2.ap.fastqvpn.com:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_2
 http = a3.ap.fastqvpn.com:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_3
