@@ -1,86 +1,86 @@
-http = jc.ap.fastqvpn.com:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇭🇰香港JC
-http = a1.ap.fastqvpn.com:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_1
-http = a2.ap.fastqvpn.com:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_2
-http = a3.ap.fastqvpn.com:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_3
-http = a4.ap.fastqvpn.com:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_4
-http = a5.ap.fastqvpn.com:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_5
-http = global.ap.fastqvpn.com:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_G】HK/香港
-http = global.ap.fastqvpn.com:29982, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇦🇺 【FASTQ_G】AU/澳大利亚
-http = global.ap.fastqvpn.com:29983, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇨🇦 【FASTQ_G】CA/加拿大
-http = global.ap.fastqvpn.com:29984, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇩🇪 【FASTQ_G】DE/德国
-http = global.ap.fastqvpn.com:29985, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇯🇵 【FASTQ_G】JP/日本
-http = global.ap.fastqvpn.com:29986, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇸🇬 【FASTQ_G】SG/新加坡
-http = global.ap.fastqvpn.com:29987, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇬🇧 【FASTQ_G】UK/英国
-http = global.ap.fastqvpn.com:29988, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=true, tag=🇺🇸 【FASTQ_G】US/美国
-http = tx.wy.fastqvpn.com:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇭🇰 【FASTQ_W】HK/香港
-http = tx.wy.fastqvpn.com:29982, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇦🇺 【FASTQ_W】AU/澳大利亚
-http = tx.wy.fastqvpn.com:29983, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇨🇦 【FASTQ_W】CA/加拿大
-http = tx.wy.fastqvpn.com:29984, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇩🇪 【FASTQ_W】DE/德国
-http = tx.wy.fastqvpn.com:29985, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇯🇵 【FASTQ_W】JP/日本
-http = tx.wy.fastqvpn.com:29986, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇸🇬 【FASTQ_W】SG/新加坡
-http = tx.wy.fastqvpn.com:29987, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇬🇧 【FASTQ_W】UK/英国
-http = tx.wy.fastqvpn.com:29988, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇺🇸 【FASTQ_W】US/美国
-http = a1.er3.xyz:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇭🇰 【ER3_A】HK/香港
-http = a1.er3.xyz:29982, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_A】AU/澳大利亚
-http = a1.er3.xyz:29983, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_A】CA/加拿大
-http = a1.er3.xyz:29984, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇩🇪 【ER3_A】DE/德国
-http = a1.er3.xyz:29985, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_A】JP/日本
-http = a1.er3.xyz:29986, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_A】SG/新加坡
-http = a1.er3.xyz:29987, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_A】UK/英国
-http = a1.er3.xyz:29988, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_A】US/美国
-http = ap1-ge.er3.xyz:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇭🇰 【ER3_GE】HK/香港
-http = ap1-ge.er3.xyz:29982, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_GE】AU/澳大利亚
-http = ap1-ge.er3.xyz:29983, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_GE】CA/加拿大
-http = ap1-ge.er3.xyz:29984, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇩🇪 【ER3_GE】DE/德国
-http = ap1-ge.er3.xyz:29985, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_GE】JP/日本
-http = ap1-ge.er3.xyz:29986, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_GE】SG/新加坡
-http = ap1-ge.er3.xyz:29987, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_GE】UK/英国
-http = ap1-ge.er3.xyz:29988, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_GE】US/美国
-http = ap1-jp.er3.xyz:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_1
-http = ap1-jp.er3.xyz:29982, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_2
-http = ap1-jp.er3.xyz:29983, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_3
-http = ap1-jp.er3.xyz:29984, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_4
-http = ap1-jp.er3.xyz:29985, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_5
-http = ap1-jp.er3.xyz:29986, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_6
-http = ap1-jp.er3.xyz:29987, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_7
-http = ap1-jp.er3.xyz:29988, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_8
-http = ap1-sg.er3.xyz:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_1
-http = ap1-sg.er3.xyz:29982, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_2
-http = ap1-sg.er3.xyz:29983, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_3
-http = ap1-sg.er3.xyz:29984, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_4
-http = ap1-sg.er3.xyz:29985, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_5
-http = ap1-sg.er3.xyz:29986, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_6
-http = ap1-sg.er3.xyz:29987, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_7
-http = ap1-sg.er3.xyz:29988, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_8
-http = ap1-au.er3.xyz:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_1
-http = ap1-au.er3.xyz:29982, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_2
-http = ap1-au.er3.xyz:29983, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_3
-http = ap1-au.er3.xyz:29984, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_4
-http = ap1-au.er3.xyz:29985, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_5
-http = ap1-au.er3.xyz:29986, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_6
-http = ap1-au.er3.xyz:29987, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_7
-http = ap1-au.er3.xyz:29988, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_8
-http = ap1-ca.er3.xyz:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_1
-http = ap1-ca.er3.xyz:29982, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_2
-http = ap1-ca.er3.xyz:29983, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_3
-http = ap1-ca.er3.xyz:29984, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_4
-http = ap1-ca.er3.xyz:29985, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_5
-http = ap1-ca.er3.xyz:29986, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_6
-http = ap1-ca.er3.xyz:29987, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_7
-http = ap1-ca.er3.xyz:29988, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_8
-http = ap1-uk.er3.xyz:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_1
-http = ap1-uk.er3.xyz:29982, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_2
-http = ap1-uk.er3.xyz:29983, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_3
-http = ap1-uk.er3.xyz:29984, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_4
-http = ap1-uk.er3.xyz:29985, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_5
-http = ap1-uk.er3.xyz:29986, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_6
-http = ap1-uk.er3.xyz:29987, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_7
-http = ap1-uk.er3.xyz:29988, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_8
-http = ap1-us.er3.xyz:29980, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_1
-http = ap1-us.er3.xyz:29982, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_2
-http = ap1-us.er3.xyz:29983, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_3
-http = ap1-us.er3.xyz:29984, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_4
-http = ap1-us.er3.xyz:29985, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_5
-http = ap1-us.er3.xyz:29986, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_6
-http = ap1-us.er3.xyz:29987, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_7
-http = ap1-us.er3.xyz:29988, username=454782772817428480, password=f5197760-4b85-4f11-880c-67cecae0f2d6, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_8
+http = jc.ap.fastqvpn.com:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇭🇰香港JC
+http = a1.ap.fastqvpn.com:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_1
+http = a2.ap.fastqvpn.com:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_2
+http = a3.ap.fastqvpn.com:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_3
+http = a4.ap.fastqvpn.com:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_4
+http = a5.ap.fastqvpn.com:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_A】HK/香港_5
+http = global.ap.fastqvpn.com:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=true, tag=🇭🇰 【FASTQ_G】HK/香港
+http = global.ap.fastqvpn.com:29982, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=true, tag=🇦🇺 【FASTQ_G】AU/澳大利亚
+http = global.ap.fastqvpn.com:29983, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=true, tag=🇨🇦 【FASTQ_G】CA/加拿大
+http = global.ap.fastqvpn.com:29984, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=true, tag=🇩🇪 【FASTQ_G】DE/德国
+http = global.ap.fastqvpn.com:29985, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=true, tag=🇯🇵 【FASTQ_G】JP/日本
+http = global.ap.fastqvpn.com:29986, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=true, tag=🇸🇬 【FASTQ_G】SG/新加坡
+http = global.ap.fastqvpn.com:29987, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=true, tag=🇬🇧 【FASTQ_G】UK/英国
+http = global.ap.fastqvpn.com:29988, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=true, tag=🇺🇸 【FASTQ_G】US/美国
+http = tx.wy.fastqvpn.com:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇭🇰 【FASTQ_W】HK/香港
+http = tx.wy.fastqvpn.com:29982, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇦🇺 【FASTQ_W】AU/澳大利亚
+http = tx.wy.fastqvpn.com:29983, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇨🇦 【FASTQ_W】CA/加拿大
+http = tx.wy.fastqvpn.com:29984, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇩🇪 【FASTQ_W】DE/德国
+http = tx.wy.fastqvpn.com:29985, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇯🇵 【FASTQ_W】JP/日本
+http = tx.wy.fastqvpn.com:29986, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇸🇬 【FASTQ_W】SG/新加坡
+http = tx.wy.fastqvpn.com:29987, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇬🇧 【FASTQ_W】UK/英国
+http = tx.wy.fastqvpn.com:29988, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇺🇸 【FASTQ_W】US/美国
+http = a1.er3.xyz:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇭🇰 【ER3_A】HK/香港
+http = a1.er3.xyz:29982, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_A】AU/澳大利亚
+http = a1.er3.xyz:29983, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_A】CA/加拿大
+http = a1.er3.xyz:29984, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇩🇪 【ER3_A】DE/德国
+http = a1.er3.xyz:29985, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_A】JP/日本
+http = a1.er3.xyz:29986, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_A】SG/新加坡
+http = a1.er3.xyz:29987, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_A】UK/英国
+http = a1.er3.xyz:29988, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_A】US/美国
+http = ap1-ge.er3.xyz:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇭🇰 【ER3_GE】HK/香港
+http = ap1-ge.er3.xyz:29982, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_GE】AU/澳大利亚
+http = ap1-ge.er3.xyz:29983, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_GE】CA/加拿大
+http = ap1-ge.er3.xyz:29984, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇩🇪 【ER3_GE】DE/德国
+http = ap1-ge.er3.xyz:29985, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_GE】JP/日本
+http = ap1-ge.er3.xyz:29986, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_GE】SG/新加坡
+http = ap1-ge.er3.xyz:29987, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_GE】UK/英国
+http = ap1-ge.er3.xyz:29988, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_GE】US/美国
+http = ap1-jp.er3.xyz:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_1
+http = ap1-jp.er3.xyz:29982, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_2
+http = ap1-jp.er3.xyz:29983, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_3
+http = ap1-jp.er3.xyz:29984, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_4
+http = ap1-jp.er3.xyz:29985, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_5
+http = ap1-jp.er3.xyz:29986, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_6
+http = ap1-jp.er3.xyz:29987, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_7
+http = ap1-jp.er3.xyz:29988, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇯🇵 【ER3_JP】JP/日本_8
+http = ap1-sg.er3.xyz:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_1
+http = ap1-sg.er3.xyz:29982, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_2
+http = ap1-sg.er3.xyz:29983, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_3
+http = ap1-sg.er3.xyz:29984, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_4
+http = ap1-sg.er3.xyz:29985, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_5
+http = ap1-sg.er3.xyz:29986, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_6
+http = ap1-sg.er3.xyz:29987, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_7
+http = ap1-sg.er3.xyz:29988, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇸🇬 【ER3_SG】SG/新加坡_8
+http = ap1-au.er3.xyz:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_1
+http = ap1-au.er3.xyz:29982, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_2
+http = ap1-au.er3.xyz:29983, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_3
+http = ap1-au.er3.xyz:29984, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_4
+http = ap1-au.er3.xyz:29985, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_5
+http = ap1-au.er3.xyz:29986, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_6
+http = ap1-au.er3.xyz:29987, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_7
+http = ap1-au.er3.xyz:29988, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇦🇺 【ER3_AU】AU/澳大利亚_8
+http = ap1-ca.er3.xyz:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_1
+http = ap1-ca.er3.xyz:29982, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_2
+http = ap1-ca.er3.xyz:29983, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_3
+http = ap1-ca.er3.xyz:29984, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_4
+http = ap1-ca.er3.xyz:29985, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_5
+http = ap1-ca.er3.xyz:29986, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_6
+http = ap1-ca.er3.xyz:29987, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_7
+http = ap1-ca.er3.xyz:29988, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇨🇦 【ER3_CA】CA/加拿大_8
+http = ap1-uk.er3.xyz:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_1
+http = ap1-uk.er3.xyz:29982, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_2
+http = ap1-uk.er3.xyz:29983, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_3
+http = ap1-uk.er3.xyz:29984, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_4
+http = ap1-uk.er3.xyz:29985, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_5
+http = ap1-uk.er3.xyz:29986, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_6
+http = ap1-uk.er3.xyz:29987, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_7
+http = ap1-uk.er3.xyz:29988, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇬🇧 【ER3_UK】UK/英国_8
+http = ap1-us.er3.xyz:29980, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_1
+http = ap1-us.er3.xyz:29982, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_2
+http = ap1-us.er3.xyz:29983, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_3
+http = ap1-us.er3.xyz:29984, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_4
+http = ap1-us.er3.xyz:29985, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_5
+http = ap1-us.er3.xyz:29986, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_6
+http = ap1-us.er3.xyz:29987, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_7
+http = ap1-us.er3.xyz:29988, username=467623686728318976, password=18e5c715-6c06-4453-b48e-a4461fc599d4, over-tls=true, tls-verification=false, tag=🇺🇸 【ER3_US】US/美国_8
