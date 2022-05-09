@@ -5,649 +5,135 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies: 
-  - {name: 🇭🇰 【FASTQ_A】HK/香港JC, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}  
-  - {name: 🇭🇰 【FASTQ_A】HK/香港_1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 【FASTQ_A】HK/香港_2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 【FASTQ_A】HK/香港_3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 【FASTQ_A】HK/香港_4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 【FASTQ_A】HK/香港_5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 【FASTQ_G】HK/香港, server: global.ap.fastqvpn.com, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}
-  - {name: 🇦🇺 【FASTQ_G】AU/澳大利亚, server: global.ap.fastqvpn.com, port: 29982, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}
-  - {name: 🇨🇦 【FASTQ_G】CA/加拿大, server: global.ap.fastqvpn.com, port: 29983, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}
-  - {name: 🇩🇪 【FASTQ_G】DE/德国, server: global.ap.fastqvpn.com, port: 29984, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}
-  - {name: 🇯🇵 【FASTQ_G】JP/日本, server: global.ap.fastqvpn.com, port: 29985, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 【FASTQ_G】SG/新加坡, server: global.ap.fastqvpn.com, port: 29986, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}
-  - {name: 🇬🇧 【FASTQ_G】UK/英国, server: global.ap.fastqvpn.com, port: 29987, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}
-  - {name: 🇺🇸 【FASTQ_G】US/美国, server: global.ap.fastqvpn.com, port: 29988, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 【FASTQ_W】HK/香港, server: tx.wy.fastqvpn.com, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇦🇺 【FASTQ_W】AU/澳大利亚, server: tx.wy.fastqvpn.com, port: 29982, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 【FASTQ_W】CA/加拿大, server: tx.wy.fastqvpn.com, port: 29983, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇩🇪 【FASTQ_W】DE/德国, server: tx.wy.fastqvpn.com, port: 29984, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 【FASTQ_W】JP/日本, server: tx.wy.fastqvpn.com, port: 29985, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 【FASTQ_W】SG/新加坡, server: tx.wy.fastqvpn.com, port: 29986, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 【FASTQ_W】UK/英国, server: tx.wy.fastqvpn.com, port: 29987, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇺🇸 【FASTQ_W】US/美国, server: tx.wy.fastqvpn.com, port: 29988, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰 【ER3_A】HK/香港, server: a1.er3.xyz, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇦🇺 【ER3_A】AU/澳大利亚, server: a1.er3.xyz, port: 29982, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 【ER3_A】CA/加拿大, server: a1.er3.xyz, port: 29983, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇩🇪 【ER3_A】DE/德国, server: a1.er3.xyz, port: 29984, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 【ER3_A】JP/日本, server: a1.er3.xyz, port: 29985, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 【ER3_A】SG/新加坡, server: a1.er3.xyz, port: 29986, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 【ER3_A】UK/英国, server: a1.er3.xyz, port: 29987, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇺🇸 【ER3_A】US/美国, server: a1.er3.xyz, port: 29988, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰 【ER3_GE】HK/香港, server: ap1-ge.er3.xyz, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇦🇺 【ER3_GE】AU/澳大利亚, server: ap1-ge.er3.xyz, port: 29982, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 【ER3_GE】CA/加拿大, server: ap1-ge.er3.xyz, port: 29983, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇩🇪 【ER3_GE】DE/德国, server: ap1-ge.er3.xyz, port: 29984, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 【ER3_GE】JP/日本, server: ap1-ge.er3.xyz, port: 29985, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 【ER3_GE】SG/新加坡, server: ap1-ge.er3.xyz, port: 29986, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 【ER3_GE】UK/英国, server: ap1-ge.er3.xyz, port: 29987, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇺🇸 【ER3_GE】US/美国, server: ap1-ge.er3.xyz, port: 29988, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 【ER3_JP】JP/日本_1, server: ap1-jp.er3.xyz, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 【ER3_JP】JP/日本_2, server: ap1-jp.er3.xyz, port: 29982, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 【ER3_JP】JP/日本_3, server: ap1-jp.er3.xyz, port: 29983, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 【ER3_JP】JP/日本_4, server: ap1-jp.er3.xyz, port: 29984, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 【ER3_JP】JP/日本_5, server: ap1-jp.er3.xyz, port: 29985, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 【ER3_JP】JP/日本_6, server: ap1-jp.er3.xyz, port: 29986, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 【ER3_JP】JP/日本_7, server: ap1-jp.er3.xyz, port: 29987, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 【ER3_JP】JP/日本_8, server: ap1-jp.er3.xyz, port: 29988, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 【ER3_SG】SG/新加坡_1, server: ap1-sg.er3.xyz, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 【ER3_SG】SG/新加坡_2, server: ap1-sg.er3.xyz, port: 29982, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 【ER3_SG】SG/新加坡_3, server: ap1-sg.er3.xyz, port: 29983, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 【ER3_SG】SG/新加坡_4, server: ap1-sg.er3.xyz, port: 29984, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 【ER3_SG】SG/新加坡_5, server: ap1-sg.er3.xyz, port: 29985, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 【ER3_SG】SG/新加坡_6, server: ap1-sg.er3.xyz, port: 29986, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 【ER3_SG】SG/新加坡_7, server: ap1-sg.er3.xyz, port: 29987, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 【ER3_SG】SG/新加坡_8, server: ap1-sg.er3.xyz, port: 29988, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇦🇺 【ER3_AU】AU/澳大利亚_1, server: ap1-au.er3.xyz, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇦🇺 【ER3_AU】AU/澳大利亚_2, server: ap1-au.er3.xyz, port: 29982, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇦🇺 【ER3_AU】AU/澳大利亚_3, server: ap1-au.er3.xyz, port: 29983, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇦🇺 【ER3_AU】AU/澳大利亚_4, server: ap1-au.er3.xyz, port: 29984, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇦🇺 【ER3_AU】AU/澳大利亚_5, server: ap1-au.er3.xyz, port: 29985, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇦🇺 【ER3_AU】AU/澳大利亚_6, server: ap1-au.er3.xyz, port: 29986, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇦🇺 【ER3_AU】AU/澳大利亚_7, server: ap1-au.er3.xyz, port: 29987, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇦🇺 【ER3_AU】AU/澳大利亚_8, server: ap1-au.er3.xyz, port: 29988, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 【ER3_CA】CA/加拿大_1, server: ap1-ca.er3.xyz, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 【ER3_CA】CA/加拿大_2, server: ap1-ca.er3.xyz, port: 29982, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 【ER3_CA】CA/加拿大_3, server: ap1-ca.er3.xyz, port: 29983, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 【ER3_CA】CA/加拿大_4, server: ap1-ca.er3.xyz, port: 29984, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 【ER3_CA】CA/加拿大_5, server: ap1-ca.er3.xyz, port: 29985, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 【ER3_CA】CA/加拿大_6, server: ap1-ca.er3.xyz, port: 29986, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 【ER3_CA】CA/加拿大_7, server: ap1-ca.er3.xyz, port: 29987, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 【ER3_CA】CA/加拿大_8, server: ap1-ca.er3.xyz, port: 29988, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 【ER3_UK】UK/英国_1, server: ap1-uk.er3.xyz, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 【ER3_UK】UK/英国_2, server: ap1-uk.er3.xyz, port: 29982, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 【ER3_UK】UK/英国_3, server: ap1-uk.er3.xyz, port: 29983, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 【ER3_UK】UK/英国_4, server: ap1-uk.er3.xyz, port: 29984, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 【ER3_UK】UK/英国_5, server: ap1-uk.er3.xyz, port: 29985, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 【ER3_UK】UK/英国_6, server: ap1-uk.er3.xyz, port: 29986, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 【ER3_UK】UK/英国_7, server: ap1-uk.er3.xyz, port: 29987, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 【ER3_UK】UK/英国_8, server: ap1-uk.er3.xyz, port: 29988, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇺🇸 【ER3_US】US/美国_1, server: ap1-us.er3.xyz, port: 29980, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇺🇸 【ER3_US】US/美国_2, server: ap1-us.er3.xyz, port: 29982, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇺🇸 【ER3_US】US/美国_3, server: ap1-us.er3.xyz, port: 29983, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇺🇸 【ER3_US】US/美国_4, server: ap1-us.er3.xyz, port: 29984, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇺🇸 【ER3_US】US/美国_5, server: ap1-us.er3.xyz, port: 29985, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇺🇸 【ER3_US】US/美国_6, server: ap1-us.er3.xyz, port: 29986, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇺🇸 【ER3_US】US/美国_7, server: ap1-us.er3.xyz, port: 29987, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
-  - {name: 🇺🇸 【ER3_US】US/美国_8, server: ap1-us.er3.xyz, port: 29988, type: http, username: "470264015977709568", password: "13dd7680-c4a1-4640-91fd-3ec0d5b1e136", tls: true, skip-cert-verify: true}
+  - {name:183.240.9.28:29979, server: 183.240.9.28, port: 29979, type: http, username: "442993652168396800", password: "2ef91648-089f-4c81-b34d-06f072ec51dd", tls: true, skip-cert-verify: false}  
+  - {name:183.240.9.28:29980, server: 183.240.9.28, port: 29980, type: http, username: "442993652168396800", password: "2ef91648-089f-4c81-b34d-06f072ec51dd", tls: true, skip-cert-verify: false}
+  - {name:183.240.9.28:29982, server: 183.240.9.28, port: 29982, type: http, username: "442993652168396800", password: "2ef91648-089f-4c81-b34d-06f072ec51dd", tls: true, skip-cert-verify: false}
+  - {name:183.240.9.28:29983, server: 183.240.9.28, port: 29983, type: http, username: "442993652168396800", password: "2ef91648-089f-4c81-b34d-06f072ec51dd", tls: true, skip-cert-verify: false}
+  - {name:183.240.9.28:29984, server: 183.240.9.28, port: 29984, type: http, username: "442993652168396800", password: "2ef91648-089f-4c81-b34d-06f072ec51dd", tls: true, skip-cert-verify: false}
+  - {name:183.240.9.28:29987, server: 183.240.9.28, port: 29987, type: http, username: "442993652168396800", password: "2ef91648-089f-4c81-b34d-06f072ec51dd", tls: true, skip-cert-verify: false}
+  - {name:183.240.9.28:29988, server: 183.240.9.28, port: 29988, type: http, username: "442993652168396800", password: "2ef91648-089f-4c81-b34d-06f072ec51dd", tls: true, skip-cert-verify: false}
+  - {name:120.232.251.206:29979, server: 120.232.251.206, port: 29979, type: http, username: "442993652168396800", password: "2ef91648-089f-4c81-b34d-06f072ec51dd", tls: true, skip-cert-verify: false}
+  - {name:120.232.251.206:29980, server: 120.232.251.206, port: 29980, type: http, username: "442993652168396800", password: "2ef91648-089f-4c81-b34d-06f072ec51dd", tls: true, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 【FASTQ_A】HK/香港_1
-      - 🇭🇰 【FASTQ_A】HK/香港_2
-      - 🇭🇰 【FASTQ_A】HK/香港_3
-      - 🇭🇰 【FASTQ_A】HK/香港_4
-      - 🇭🇰 【FASTQ_A】HK/香港_5
-      - 🇭🇰 【FASTQ_G】HK/香港
-      - 🇦🇺 【FASTQ_G】AU/澳大利亚
-      - 🇨🇦 【FASTQ_G】CA/加拿大
-      - 🇩🇪 【FASTQ_G】DE/德国
-      - 🇯🇵 【FASTQ_G】JP/日本
-      - 🇸🇬 【FASTQ_G】SG/新加坡
-      - 🇬🇧 【FASTQ_G】UK/英国
-      - 🇺🇸 【FASTQ_G】US/美国
-      - 🇭🇰 【FASTQ_W】HK/香港
-      - 🇦🇺 【FASTQ_W】AU/澳大利亚
-      - 🇨🇦 【FASTQ_W】CA/加拿大
-      - 🇩🇪 【FASTQ_W】DE/德国
-      - 🇯🇵 【FASTQ_W】JP/日本
-      - 🇸🇬 【FASTQ_W】SG/新加坡
-      - 🇬🇧 【FASTQ_W】UK/英国
-      - 🇺🇸 【FASTQ_W】US/美国
-      - 🇭🇰 【ER3_A】HK/香港
-      - 🇦🇺 【ER3_A】AU/澳大利亚
-      - 🇨🇦 【ER3_A】CA/加拿大
-      - 🇩🇪 【ER3_A】DE/德国
-      - 🇯🇵 【ER3_A】JP/日本
-      - 🇸🇬 【ER3_A】SG/新加坡
-      - 🇬🇧 【ER3_A】UK/英国
-      - 🇺🇸 【ER3_A】US/美国
-      - 🇭🇰 【ER3_GE】HK/香港
-      - 🇦🇺 【ER3_GE】AU/澳大利亚
-      - 🇨🇦 【ER3_GE】CA/加拿大
-      - 🇩🇪 【ER3_GE】DE/德国
-      - 🇯🇵 【ER3_GE】JP/日本
-      - 🇸🇬 【ER3_GE】SG/新加坡
-      - 🇬🇧 【ER3_GE】UK/英国
-      - 🇺🇸 【ER3_GE】US/美国
-      - 🇯🇵 【ER3_JP】JP/日本_1
-      - 🇯🇵 【ER3_JP】JP/日本_2
-      - 🇯🇵 【ER3_JP】JP/日本_3
-      - 🇯🇵 【ER3_JP】JP/日本_4
-      - 🇯🇵 【ER3_JP】JP/日本_5
-      - 🇯🇵 【ER3_JP】JP/日本_6
-      - 🇯🇵 【ER3_JP】JP/日本_7
-      - 🇯🇵 【ER3_JP】JP/日本_8
-      - 🇸🇬 【ER3_SG】SG/新加坡_1
-      - 🇸🇬 【ER3_SG】SG/新加坡_2
-      - 🇸🇬 【ER3_SG】SG/新加坡_3
-      - 🇸🇬 【ER3_SG】SG/新加坡_4
-      - 🇸🇬 【ER3_SG】SG/新加坡_5
-      - 🇸🇬 【ER3_SG】SG/新加坡_6
-      - 🇸🇬 【ER3_SG】SG/新加坡_7
-      - 🇸🇬 【ER3_SG】SG/新加坡_8
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_1
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_2
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_3
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_4
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_5
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_6
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_7
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_8
-      - 🇨🇦 【ER3_CA】CA/加拿大_1
-      - 🇨🇦 【ER3_CA】CA/加拿大_2
-      - 🇨🇦 【ER3_CA】CA/加拿大_3
-      - 🇨🇦 【ER3_CA】CA/加拿大_4
-      - 🇨🇦 【ER3_CA】CA/加拿大_5
-      - 🇨🇦 【ER3_CA】CA/加拿大_6
-      - 🇨🇦 【ER3_CA】CA/加拿大_7
-      - 🇨🇦 【ER3_CA】CA/加拿大_8
-      - 🇬🇧 【ER3_UK】UK/英国_1
-      - 🇬🇧 【ER3_UK】UK/英国_2
-      - 🇬🇧 【ER3_UK】UK/英国_3
-      - 🇬🇧 【ER3_UK】UK/英国_4
-      - 🇬🇧 【ER3_UK】UK/英国_5
-      - 🇬🇧 【ER3_UK】UK/英国_6
-      - 🇬🇧 【ER3_UK】UK/英国_7
-      - 🇬🇧 【ER3_UK】UK/英国_8
-      - 🇺🇸 【ER3_US】US/美国_1
-      - 🇺🇸 【ER3_US】US/美国_2
-      - 🇺🇸 【ER3_US】US/美国_3
-      - 🇺🇸 【ER3_US】US/美国_4
-      - 🇺🇸 【ER3_US】US/美国_5
-      - 🇺🇸 【ER3_US】US/美国_6
-      - 🇺🇸 【ER3_US】US/美国_7
-      - 🇺🇸 【ER3_US】US/美国_8
+      - 183.240.9.28:29979
+      - 183.240.9.28:29980
+      - 183.240.9.28:29982
+      - 183.240.9.28:29983
+      - 183.240.9.28:29984
+      - 183.240.9.28:29987
+      - 183.240.9.28:29988
+      - 120.232.251.206:29979
+      - 120.232.251.206:29980
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 【FASTQ_A】HK/香港_1
-      - 🇭🇰 【FASTQ_A】HK/香港_2
-      - 🇭🇰 【FASTQ_A】HK/香港_3
-      - 🇭🇰 【FASTQ_A】HK/香港_4
-      - 🇭🇰 【FASTQ_A】HK/香港_5
-      - 🇭🇰 【FASTQ_G】HK/香港
-      - 🇦🇺 【FASTQ_G】AU/澳大利亚
-      - 🇨🇦 【FASTQ_G】CA/加拿大
-      - 🇩🇪 【FASTQ_G】DE/德国
-      - 🇯🇵 【FASTQ_G】JP/日本
-      - 🇸🇬 【FASTQ_G】SG/新加坡
-      - 🇬🇧 【FASTQ_G】UK/英国
-      - 🇺🇸 【FASTQ_G】US/美国
-      - 🇭🇰 【FASTQ_W】HK/香港
-      - 🇦🇺 【FASTQ_W】AU/澳大利亚
-      - 🇨🇦 【FASTQ_W】CA/加拿大
-      - 🇩🇪 【FASTQ_W】DE/德国
-      - 🇯🇵 【FASTQ_W】JP/日本
-      - 🇸🇬 【FASTQ_W】SG/新加坡
-      - 🇬🇧 【FASTQ_W】UK/英国
-      - 🇺🇸 【FASTQ_W】US/美国
-      - 🇭🇰 【ER3_A】HK/香港
-      - 🇦🇺 【ER3_A】AU/澳大利亚
-      - 🇨🇦 【ER3_A】CA/加拿大
-      - 🇩🇪 【ER3_A】DE/德国
-      - 🇯🇵 【ER3_A】JP/日本
-      - 🇸🇬 【ER3_A】SG/新加坡
-      - 🇬🇧 【ER3_A】UK/英国
-      - 🇺🇸 【ER3_A】US/美国
-      - 🇭🇰 【ER3_GE】HK/香港
-      - 🇦🇺 【ER3_GE】AU/澳大利亚
-      - 🇨🇦 【ER3_GE】CA/加拿大
-      - 🇩🇪 【ER3_GE】DE/德国
-      - 🇯🇵 【ER3_GE】JP/日本
-      - 🇸🇬 【ER3_GE】SG/新加坡
-      - 🇬🇧 【ER3_GE】UK/英国
-      - 🇺🇸 【ER3_GE】US/美国
-      - 🇯🇵 【ER3_JP】JP/日本_1
-      - 🇯🇵 【ER3_JP】JP/日本_2
-      - 🇯🇵 【ER3_JP】JP/日本_3
-      - 🇯🇵 【ER3_JP】JP/日本_4
-      - 🇯🇵 【ER3_JP】JP/日本_5
-      - 🇯🇵 【ER3_JP】JP/日本_6
-      - 🇯🇵 【ER3_JP】JP/日本_7
-      - 🇯🇵 【ER3_JP】JP/日本_8
-      - 🇸🇬 【ER3_SG】SG/新加坡_1
-      - 🇸🇬 【ER3_SG】SG/新加坡_2
-      - 🇸🇬 【ER3_SG】SG/新加坡_3
-      - 🇸🇬 【ER3_SG】SG/新加坡_4
-      - 🇸🇬 【ER3_SG】SG/新加坡_5
-      - 🇸🇬 【ER3_SG】SG/新加坡_6
-      - 🇸🇬 【ER3_SG】SG/新加坡_7
-      - 🇸🇬 【ER3_SG】SG/新加坡_8
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_1
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_2
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_3
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_4
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_5
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_6
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_7
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_8
-      - 🇨🇦 【ER3_CA】CA/加拿大_1
-      - 🇨🇦 【ER3_CA】CA/加拿大_2
-      - 🇨🇦 【ER3_CA】CA/加拿大_3
-      - 🇨🇦 【ER3_CA】CA/加拿大_4
-      - 🇨🇦 【ER3_CA】CA/加拿大_5
-      - 🇨🇦 【ER3_CA】CA/加拿大_6
-      - 🇨🇦 【ER3_CA】CA/加拿大_7
-      - 🇨🇦 【ER3_CA】CA/加拿大_8
-      - 🇬🇧 【ER3_UK】UK/英国_1
-      - 🇬🇧 【ER3_UK】UK/英国_2
-      - 🇬🇧 【ER3_UK】UK/英国_3
-      - 🇬🇧 【ER3_UK】UK/英国_4
-      - 🇬🇧 【ER3_UK】UK/英国_5
-      - 🇬🇧 【ER3_UK】UK/英国_6
-      - 🇬🇧 【ER3_UK】UK/英国_7
-      - 🇬🇧 【ER3_UK】UK/英国_8
-      - 🇺🇸 【ER3_US】US/美国_1
-      - 🇺🇸 【ER3_US】US/美国_2
-      - 🇺🇸 【ER3_US】US/美国_3
-      - 🇺🇸 【ER3_US】US/美国_4
-      - 🇺🇸 【ER3_US】US/美国_5
-      - 🇺🇸 【ER3_US】US/美国_6
-      - 🇺🇸 【ER3_US】US/美国_7
-      - 🇺🇸 【ER3_US】US/美国_8
+      - 183.240.9.28:29979
+      - 183.240.9.28:29980
+      - 183.240.9.28:29982
+      - 183.240.9.28:29983
+      - 183.240.9.28:29984
+      - 183.240.9.28:29987
+      - 183.240.9.28:29988
+      - 120.232.251.206:29979
+      - 120.232.251.206:29980
+  - name: 🎥 NETFLIX
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 183.240.9.28:29979
+      - 183.240.9.28:29980
+      - 183.240.9.28:29982
+      - 183.240.9.28:29983
+      - 183.240.9.28:29984
+      - 183.240.9.28:29987
+      - 183.240.9.28:29988
+      - 120.232.251.206:29979
+      - 120.232.251.206:29980
+  - name: ⛔️ 广告拦截
+    type: select
+    proxies:
+      - 🛑 全球拦截
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 🚫 运营劫持
+    type: select
+    proxies:
+      - 🛑 全球拦截
+      - 🎯 全球直连
+      - 🔰 节点选择
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 【FASTQ_A】HK/香港_1
-      - 🇭🇰 【FASTQ_A】HK/香港_2
-      - 🇭🇰 【FASTQ_A】HK/香港_3
-      - 🇭🇰 【FASTQ_A】HK/香港_4
-      - 🇭🇰 【FASTQ_A】HK/香港_5
-      - 🇭🇰 【FASTQ_G】HK/香港
-      - 🇦🇺 【FASTQ_G】AU/澳大利亚
-      - 🇨🇦 【FASTQ_G】CA/加拿大
-      - 🇩🇪 【FASTQ_G】DE/德国
-      - 🇯🇵 【FASTQ_G】JP/日本
-      - 🇸🇬 【FASTQ_G】SG/新加坡
-      - 🇬🇧 【FASTQ_G】UK/英国
-      - 🇺🇸 【FASTQ_G】US/美国
-      - 🇭🇰 【FASTQ_W】HK/香港
-      - 🇦🇺 【FASTQ_W】AU/澳大利亚
-      - 🇨🇦 【FASTQ_W】CA/加拿大
-      - 🇩🇪 【FASTQ_W】DE/德国
-      - 🇯🇵 【FASTQ_W】JP/日本
-      - 🇸🇬 【FASTQ_W】SG/新加坡
-      - 🇬🇧 【FASTQ_W】UK/英国
-      - 🇺🇸 【FASTQ_W】US/美国
-      - 🇭🇰 【ER3_A】HK/香港
-      - 🇦🇺 【ER3_A】AU/澳大利亚
-      - 🇨🇦 【ER3_A】CA/加拿大
-      - 🇩🇪 【ER3_A】DE/德国
-      - 🇯🇵 【ER3_A】JP/日本
-      - 🇸🇬 【ER3_A】SG/新加坡
-      - 🇬🇧 【ER3_A】UK/英国
-      - 🇺🇸 【ER3_A】US/美国
-      - 🇭🇰 【ER3_GE】HK/香港
-      - 🇦🇺 【ER3_GE】AU/澳大利亚
-      - 🇨🇦 【ER3_GE】CA/加拿大
-      - 🇩🇪 【ER3_GE】DE/德国
-      - 🇯🇵 【ER3_GE】JP/日本
-      - 🇸🇬 【ER3_GE】SG/新加坡
-      - 🇬🇧 【ER3_GE】UK/英国
-      - 🇺🇸 【ER3_GE】US/美国
-      - 🇯🇵 【ER3_JP】JP/日本_1
-      - 🇯🇵 【ER3_JP】JP/日本_2
-      - 🇯🇵 【ER3_JP】JP/日本_3
-      - 🇯🇵 【ER3_JP】JP/日本_4
-      - 🇯🇵 【ER3_JP】JP/日本_5
-      - 🇯🇵 【ER3_JP】JP/日本_6
-      - 🇯🇵 【ER3_JP】JP/日本_7
-      - 🇯🇵 【ER3_JP】JP/日本_8
-      - 🇸🇬 【ER3_SG】SG/新加坡_1
-      - 🇸🇬 【ER3_SG】SG/新加坡_2
-      - 🇸🇬 【ER3_SG】SG/新加坡_3
-      - 🇸🇬 【ER3_SG】SG/新加坡_4
-      - 🇸🇬 【ER3_SG】SG/新加坡_5
-      - 🇸🇬 【ER3_SG】SG/新加坡_6
-      - 🇸🇬 【ER3_SG】SG/新加坡_7
-      - 🇸🇬 【ER3_SG】SG/新加坡_8
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_1
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_2
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_3
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_4
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_5
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_6
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_7
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_8
-      - 🇨🇦 【ER3_CA】CA/加拿大_1
-      - 🇨🇦 【ER3_CA】CA/加拿大_2
-      - 🇨🇦 【ER3_CA】CA/加拿大_3
-      - 🇨🇦 【ER3_CA】CA/加拿大_4
-      - 🇨🇦 【ER3_CA】CA/加拿大_5
-      - 🇨🇦 【ER3_CA】CA/加拿大_6
-      - 🇨🇦 【ER3_CA】CA/加拿大_7
-      - 🇨🇦 【ER3_CA】CA/加拿大_8
-      - 🇬🇧 【ER3_UK】UK/英国_1
-      - 🇬🇧 【ER3_UK】UK/英国_2
-      - 🇬🇧 【ER3_UK】UK/英国_3
-      - 🇬🇧 【ER3_UK】UK/英国_4
-      - 🇬🇧 【ER3_UK】UK/英国_5
-      - 🇬🇧 【ER3_UK】UK/英国_6
-      - 🇬🇧 【ER3_UK】UK/英国_7
-      - 🇬🇧 【ER3_UK】UK/英国_8
-      - 🇺🇸 【ER3_US】US/美国_1
-      - 🇺🇸 【ER3_US】US/美国_2
-      - 🇺🇸 【ER3_US】US/美国_3
-      - 🇺🇸 【ER3_US】US/美国_4
-      - 🇺🇸 【ER3_US】US/美国_5
-      - 🇺🇸 【ER3_US】US/美国_6
-      - 🇺🇸 【ER3_US】US/美国_7
-      - 🇺🇸 【ER3_US】US/美国_8
+      - 183.240.9.28:29979
+      - 183.240.9.28:29980
+      - 183.240.9.28:29982
+      - 183.240.9.28:29983
+      - 183.240.9.28:29984
+      - 183.240.9.28:29987
+      - 183.240.9.28:29988
+      - 120.232.251.206:29979
+      - 120.232.251.206:29980
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 【FASTQ_A】HK/香港_1
-      - 🇭🇰 【FASTQ_A】HK/香港_2
-      - 🇭🇰 【FASTQ_A】HK/香港_3
-      - 🇭🇰 【FASTQ_A】HK/香港_4
-      - 🇭🇰 【FASTQ_A】HK/香港_5
-      - 🇭🇰 【FASTQ_G】HK/香港
-      - 🇭🇰 【FASTQ_W】HK/香港
-      - 🇭🇰 【ER3_A】HK/香港
-      - 🇭🇰 【ER3_GE】HK/香港
+      - youtube:8度科技_香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 【FASTQ_A】HK/香港_1
-      - 🇭🇰 【FASTQ_A】HK/香港_2
-      - 🇭🇰 【FASTQ_A】HK/香港_3
-      - 🇭🇰 【FASTQ_A】HK/香港_4
-      - 🇭🇰 【FASTQ_A】HK/香港_5
-      - 🇭🇰 【FASTQ_G】HK/香港
-      - 🇦🇺 【FASTQ_G】AU/澳大利亚
-      - 🇨🇦 【FASTQ_G】CA/加拿大
-      - 🇩🇪 【FASTQ_G】DE/德国
-      - 🇯🇵 【FASTQ_G】JP/日本
-      - 🇸🇬 【FASTQ_G】SG/新加坡
-      - 🇬🇧 【FASTQ_G】UK/英国
-      - 🇺🇸 【FASTQ_G】US/美国
-      - 🇭🇰 【FASTQ_W】HK/香港
-      - 🇦🇺 【FASTQ_W】AU/澳大利亚
-      - 🇨🇦 【FASTQ_W】CA/加拿大
-      - 🇩🇪 【FASTQ_W】DE/德国
-      - 🇯🇵 【FASTQ_W】JP/日本
-      - 🇸🇬 【FASTQ_W】SG/新加坡
-      - 🇬🇧 【FASTQ_W】UK/英国
-      - 🇺🇸 【FASTQ_W】US/美国
-      - 🇭🇰 【ER3_A】HK/香港
-      - 🇦🇺 【ER3_A】AU/澳大利亚
-      - 🇨🇦 【ER3_A】CA/加拿大
-      - 🇩🇪 【ER3_A】DE/德国
-      - 🇯🇵 【ER3_A】JP/日本
-      - 🇸🇬 【ER3_A】SG/新加坡
-      - 🇬🇧 【ER3_A】UK/英国
-      - 🇺🇸 【ER3_A】US/美国
-      - 🇭🇰 【ER3_GE】HK/香港
-      - 🇦🇺 【ER3_GE】AU/澳大利亚
-      - 🇨🇦 【ER3_GE】CA/加拿大
-      - 🇩🇪 【ER3_GE】DE/德国
-      - 🇯🇵 【ER3_GE】JP/日本
-      - 🇸🇬 【ER3_GE】SG/新加坡
-      - 🇬🇧 【ER3_GE】UK/英国
-      - 🇺🇸 【ER3_GE】US/美国
-      - 🇯🇵 【ER3_JP】JP/日本_1
-      - 🇯🇵 【ER3_JP】JP/日本_2
-      - 🇯🇵 【ER3_JP】JP/日本_3
-      - 🇯🇵 【ER3_JP】JP/日本_4
-      - 🇯🇵 【ER3_JP】JP/日本_5
-      - 🇯🇵 【ER3_JP】JP/日本_6
-      - 🇯🇵 【ER3_JP】JP/日本_7
-      - 🇯🇵 【ER3_JP】JP/日本_8
-      - 🇸🇬 【ER3_SG】SG/新加坡_1
-      - 🇸🇬 【ER3_SG】SG/新加坡_2
-      - 🇸🇬 【ER3_SG】SG/新加坡_3
-      - 🇸🇬 【ER3_SG】SG/新加坡_4
-      - 🇸🇬 【ER3_SG】SG/新加坡_5
-      - 🇸🇬 【ER3_SG】SG/新加坡_6
-      - 🇸🇬 【ER3_SG】SG/新加坡_7
-      - 🇸🇬 【ER3_SG】SG/新加坡_8
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_1
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_2
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_3
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_4
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_5
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_6
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_7
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_8
-      - 🇨🇦 【ER3_CA】CA/加拿大_1
-      - 🇨🇦 【ER3_CA】CA/加拿大_2
-      - 🇨🇦 【ER3_CA】CA/加拿大_3
-      - 🇨🇦 【ER3_CA】CA/加拿大_4
-      - 🇨🇦 【ER3_CA】CA/加拿大_5
-      - 🇨🇦 【ER3_CA】CA/加拿大_6
-      - 🇨🇦 【ER3_CA】CA/加拿大_7
-      - 🇨🇦 【ER3_CA】CA/加拿大_8
-      - 🇬🇧 【ER3_UK】UK/英国_1
-      - 🇬🇧 【ER3_UK】UK/英国_2
-      - 🇬🇧 【ER3_UK】UK/英国_3
-      - 🇬🇧 【ER3_UK】UK/英国_4
-      - 🇬🇧 【ER3_UK】UK/英国_5
-      - 🇬🇧 【ER3_UK】UK/英国_6
-      - 🇬🇧 【ER3_UK】UK/英国_7
-      - 🇬🇧 【ER3_UK】UK/英国_8
-      - 🇺🇸 【ER3_US】US/美国_1
-      - 🇺🇸 【ER3_US】US/美国_2
-      - 🇺🇸 【ER3_US】US/美国_3
-      - 🇺🇸 【ER3_US】US/美国_4
-      - 🇺🇸 【ER3_US】US/美国_5
-      - 🇺🇸 【ER3_US】US/美国_6
-      - 🇺🇸 【ER3_US】US/美国_7
-      - 🇺🇸 【ER3_US】US/美国_8
+      - 183.240.9.28:29979
+      - 183.240.9.28:29980
+      - 183.240.9.28:29982
+      - 183.240.9.28:29983
+      - 183.240.9.28:29984
+      - 183.240.9.28:29987
+      - 183.240.9.28:29988
+      - 120.232.251.206:29979
+      - 120.232.251.206:29980
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 【FASTQ_A】HK/香港_1
-      - 🇭🇰 【FASTQ_A】HK/香港_2
-      - 🇭🇰 【FASTQ_A】HK/香港_3
-      - 🇭🇰 【FASTQ_A】HK/香港_4
-      - 🇭🇰 【FASTQ_A】HK/香港_5
-      - 🇭🇰 【FASTQ_G】HK/香港
-      - 🇦🇺 【FASTQ_G】AU/澳大利亚
-      - 🇨🇦 【FASTQ_G】CA/加拿大
-      - 🇩🇪 【FASTQ_G】DE/德国
-      - 🇯🇵 【FASTQ_G】JP/日本
-      - 🇸🇬 【FASTQ_G】SG/新加坡
-      - 🇬🇧 【FASTQ_G】UK/英国
-      - 🇺🇸 【FASTQ_G】US/美国
-      - 🇭🇰 【FASTQ_W】HK/香港
-      - 🇦🇺 【FASTQ_W】AU/澳大利亚
-      - 🇨🇦 【FASTQ_W】CA/加拿大
-      - 🇩🇪 【FASTQ_W】DE/德国
-      - 🇯🇵 【FASTQ_W】JP/日本
-      - 🇸🇬 【FASTQ_W】SG/新加坡
-      - 🇬🇧 【FASTQ_W】UK/英国
-      - 🇺🇸 【FASTQ_W】US/美国
-      - 🇭🇰 【ER3_A】HK/香港
-      - 🇦🇺 【ER3_A】AU/澳大利亚
-      - 🇨🇦 【ER3_A】CA/加拿大
-      - 🇩🇪 【ER3_A】DE/德国
-      - 🇯🇵 【ER3_A】JP/日本
-      - 🇸🇬 【ER3_A】SG/新加坡
-      - 🇬🇧 【ER3_A】UK/英国
-      - 🇺🇸 【ER3_A】US/美国
-      - 🇭🇰 【ER3_GE】HK/香港
-      - 🇦🇺 【ER3_GE】AU/澳大利亚
-      - 🇨🇦 【ER3_GE】CA/加拿大
-      - 🇩🇪 【ER3_GE】DE/德国
-      - 🇯🇵 【ER3_GE】JP/日本
-      - 🇸🇬 【ER3_GE】SG/新加坡
-      - 🇬🇧 【ER3_GE】UK/英国
-      - 🇺🇸 【ER3_GE】US/美国
-      - 🇯🇵 【ER3_JP】JP/日本_1
-      - 🇯🇵 【ER3_JP】JP/日本_2
-      - 🇯🇵 【ER3_JP】JP/日本_3
-      - 🇯🇵 【ER3_JP】JP/日本_4
-      - 🇯🇵 【ER3_JP】JP/日本_5
-      - 🇯🇵 【ER3_JP】JP/日本_6
-      - 🇯🇵 【ER3_JP】JP/日本_7
-      - 🇯🇵 【ER3_JP】JP/日本_8
-      - 🇸🇬 【ER3_SG】SG/新加坡_1
-      - 🇸🇬 【ER3_SG】SG/新加坡_2
-      - 🇸🇬 【ER3_SG】SG/新加坡_3
-      - 🇸🇬 【ER3_SG】SG/新加坡_4
-      - 🇸🇬 【ER3_SG】SG/新加坡_5
-      - 🇸🇬 【ER3_SG】SG/新加坡_6
-      - 🇸🇬 【ER3_SG】SG/新加坡_7
-      - 🇸🇬 【ER3_SG】SG/新加坡_8
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_1
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_2
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_3
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_4
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_5
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_6
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_7
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_8
-      - 🇨🇦 【ER3_CA】CA/加拿大_1
-      - 🇨🇦 【ER3_CA】CA/加拿大_2
-      - 🇨🇦 【ER3_CA】CA/加拿大_3
-      - 🇨🇦 【ER3_CA】CA/加拿大_4
-      - 🇨🇦 【ER3_CA】CA/加拿大_5
-      - 🇨🇦 【ER3_CA】CA/加拿大_6
-      - 🇨🇦 【ER3_CA】CA/加拿大_7
-      - 🇨🇦 【ER3_CA】CA/加拿大_8
-      - 🇬🇧 【ER3_UK】UK/英国_1
-      - 🇬🇧 【ER3_UK】UK/英国_2
-      - 🇬🇧 【ER3_UK】UK/英国_3
-      - 🇬🇧 【ER3_UK】UK/英国_4
-      - 🇬🇧 【ER3_UK】UK/英国_5
-      - 🇬🇧 【ER3_UK】UK/英国_6
-      - 🇬🇧 【ER3_UK】UK/英国_7
-      - 🇬🇧 【ER3_UK】UK/英国_8
-      - 🇺🇸 【ER3_US】US/美国_1
-      - 🇺🇸 【ER3_US】US/美国_2
-      - 🇺🇸 【ER3_US】US/美国_3
-      - 🇺🇸 【ER3_US】US/美国_4
-      - 🇺🇸 【ER3_US】US/美国_5
-      - 🇺🇸 【ER3_US】US/美国_6
-      - 🇺🇸 【ER3_US】US/美国_7
-      - 🇺🇸 【ER3_US】US/美国_8
+      - 183.240.9.28:29979
+      - 183.240.9.28:29980
+      - 183.240.9.28:29982
+      - 183.240.9.28:29983
+      - 183.240.9.28:29984
+      - 183.240.9.28:29987
+      - 183.240.9.28:29988
+      - 120.232.251.206:29979
+      - 120.232.251.206:29980
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 【FASTQ_A】HK/香港_1
-      - 🇭🇰 【FASTQ_A】HK/香港_2
-      - 🇭🇰 【FASTQ_A】HK/香港_3
-      - 🇭🇰 【FASTQ_A】HK/香港_4
-      - 🇭🇰 【FASTQ_A】HK/香港_5
-      - 🇭🇰 【FASTQ_G】HK/香港
-      - 🇦🇺 【FASTQ_G】AU/澳大利亚
-      - 🇨🇦 【FASTQ_G】CA/加拿大
-      - 🇩🇪 【FASTQ_G】DE/德国
-      - 🇯🇵 【FASTQ_G】JP/日本
-      - 🇸🇬 【FASTQ_G】SG/新加坡
-      - 🇬🇧 【FASTQ_G】UK/英国
-      - 🇺🇸 【FASTQ_G】US/美国
-      - 🇭🇰 【FASTQ_W】HK/香港
-      - 🇦🇺 【FASTQ_W】AU/澳大利亚
-      - 🇨🇦 【FASTQ_W】CA/加拿大
-      - 🇩🇪 【FASTQ_W】DE/德国
-      - 🇯🇵 【FASTQ_W】JP/日本
-      - 🇸🇬 【FASTQ_W】SG/新加坡
-      - 🇬🇧 【FASTQ_W】UK/英国
-      - 🇺🇸 【FASTQ_W】US/美国
-      - 🇭🇰 【ER3_A】HK/香港
-      - 🇦🇺 【ER3_A】AU/澳大利亚
-      - 🇨🇦 【ER3_A】CA/加拿大
-      - 🇩🇪 【ER3_A】DE/德国
-      - 🇯🇵 【ER3_A】JP/日本
-      - 🇸🇬 【ER3_A】SG/新加坡
-      - 🇬🇧 【ER3_A】UK/英国
-      - 🇺🇸 【ER3_A】US/美国
-      - 🇭🇰 【ER3_GE】HK/香港
-      - 🇦🇺 【ER3_GE】AU/澳大利亚
-      - 🇨🇦 【ER3_GE】CA/加拿大
-      - 🇩🇪 【ER3_GE】DE/德国
-      - 🇯🇵 【ER3_GE】JP/日本
-      - 🇸🇬 【ER3_GE】SG/新加坡
-      - 🇬🇧 【ER3_GE】UK/英国
-      - 🇺🇸 【ER3_GE】US/美国
-      - 🇯🇵 【ER3_JP】JP/日本_1
-      - 🇯🇵 【ER3_JP】JP/日本_2
-      - 🇯🇵 【ER3_JP】JP/日本_3
-      - 🇯🇵 【ER3_JP】JP/日本_4
-      - 🇯🇵 【ER3_JP】JP/日本_5
-      - 🇯🇵 【ER3_JP】JP/日本_6
-      - 🇯🇵 【ER3_JP】JP/日本_7
-      - 🇯🇵 【ER3_JP】JP/日本_8
-      - 🇸🇬 【ER3_SG】SG/新加坡_1
-      - 🇸🇬 【ER3_SG】SG/新加坡_2
-      - 🇸🇬 【ER3_SG】SG/新加坡_3
-      - 🇸🇬 【ER3_SG】SG/新加坡_4
-      - 🇸🇬 【ER3_SG】SG/新加坡_5
-      - 🇸🇬 【ER3_SG】SG/新加坡_6
-      - 🇸🇬 【ER3_SG】SG/新加坡_7
-      - 🇸🇬 【ER3_SG】SG/新加坡_8
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_1
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_2
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_3
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_4
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_5
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_6
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_7
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_8
-      - 🇨🇦 【ER3_CA】CA/加拿大_1
-      - 🇨🇦 【ER3_CA】CA/加拿大_2
-      - 🇨🇦 【ER3_CA】CA/加拿大_3
-      - 🇨🇦 【ER3_CA】CA/加拿大_4
-      - 🇨🇦 【ER3_CA】CA/加拿大_5
-      - 🇨🇦 【ER3_CA】CA/加拿大_6
-      - 🇨🇦 【ER3_CA】CA/加拿大_7
-      - 🇨🇦 【ER3_CA】CA/加拿大_8
-      - 🇬🇧 【ER3_UK】UK/英国_1
-      - 🇬🇧 【ER3_UK】UK/英国_2
-      - 🇬🇧 【ER3_UK】UK/英国_3
-      - 🇬🇧 【ER3_UK】UK/英国_4
-      - 🇬🇧 【ER3_UK】UK/英国_5
-      - 🇬🇧 【ER3_UK】UK/英国_6
-      - 🇬🇧 【ER3_UK】UK/英国_7
-      - 🇬🇧 【ER3_UK】UK/英国_8
-      - 🇺🇸 【ER3_US】US/美国_1
-      - 🇺🇸 【ER3_US】US/美国_2
-      - 🇺🇸 【ER3_US】US/美国_3
-      - 🇺🇸 【ER3_US】US/美国_4
-      - 🇺🇸 【ER3_US】US/美国_5
-      - 🇺🇸 【ER3_US】US/美国_6
-      - 🇺🇸 【ER3_US】US/美国_7
-      - 🇺🇸 【ER3_US】US/美国_8
+      - 183.240.9.28:29979
+      - 183.240.9.28:29980
+      - 183.240.9.28:29982
+      - 183.240.9.28:29983
+      - 183.240.9.28:29984
+      - 183.240.9.28:29987
+      - 183.240.9.28:29988
+      - 120.232.251.206:29979
+      - 120.232.251.206:29980
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -663,91 +149,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 【FASTQ_A】HK/香港_1
-      - 🇭🇰 【FASTQ_A】HK/香港_2
-      - 🇭🇰 【FASTQ_A】HK/香港_3
-      - 🇭🇰 【FASTQ_A】HK/香港_4
-      - 🇭🇰 【FASTQ_A】HK/香港_5
-      - 🇭🇰 【FASTQ_G】HK/香港
-      - 🇦🇺 【FASTQ_G】AU/澳大利亚
-      - 🇨🇦 【FASTQ_G】CA/加拿大
-      - 🇩🇪 【FASTQ_G】DE/德国
-      - 🇯🇵 【FASTQ_G】JP/日本
-      - 🇸🇬 【FASTQ_G】SG/新加坡
-      - 🇬🇧 【FASTQ_G】UK/英国
-      - 🇺🇸 【FASTQ_G】US/美国
-      - 🇭🇰 【FASTQ_W】HK/香港
-      - 🇦🇺 【FASTQ_W】AU/澳大利亚
-      - 🇨🇦 【FASTQ_W】CA/加拿大
-      - 🇩🇪 【FASTQ_W】DE/德国
-      - 🇯🇵 【FASTQ_W】JP/日本
-      - 🇸🇬 【FASTQ_W】SG/新加坡
-      - 🇬🇧 【FASTQ_W】UK/英国
-      - 🇺🇸 【FASTQ_W】US/美国
-      - 🇭🇰 【ER3_A】HK/香港
-      - 🇦🇺 【ER3_A】AU/澳大利亚
-      - 🇨🇦 【ER3_A】CA/加拿大
-      - 🇩🇪 【ER3_A】DE/德国
-      - 🇯🇵 【ER3_A】JP/日本
-      - 🇸🇬 【ER3_A】SG/新加坡
-      - 🇬🇧 【ER3_A】UK/英国
-      - 🇺🇸 【ER3_A】US/美国
-      - 🇭🇰 【ER3_GE】HK/香港
-      - 🇦🇺 【ER3_GE】AU/澳大利亚
-      - 🇨🇦 【ER3_GE】CA/加拿大
-      - 🇩🇪 【ER3_GE】DE/德国
-      - 🇯🇵 【ER3_GE】JP/日本
-      - 🇸🇬 【ER3_GE】SG/新加坡
-      - 🇬🇧 【ER3_GE】UK/英国
-      - 🇺🇸 【ER3_GE】US/美国
-      - 🇯🇵 【ER3_JP】JP/日本_1
-      - 🇯🇵 【ER3_JP】JP/日本_2
-      - 🇯🇵 【ER3_JP】JP/日本_3
-      - 🇯🇵 【ER3_JP】JP/日本_4
-      - 🇯🇵 【ER3_JP】JP/日本_5
-      - 🇯🇵 【ER3_JP】JP/日本_6
-      - 🇯🇵 【ER3_JP】JP/日本_7
-      - 🇯🇵 【ER3_JP】JP/日本_8
-      - 🇸🇬 【ER3_SG】SG/新加坡_1
-      - 🇸🇬 【ER3_SG】SG/新加坡_2
-      - 🇸🇬 【ER3_SG】SG/新加坡_3
-      - 🇸🇬 【ER3_SG】SG/新加坡_4
-      - 🇸🇬 【ER3_SG】SG/新加坡_5
-      - 🇸🇬 【ER3_SG】SG/新加坡_6
-      - 🇸🇬 【ER3_SG】SG/新加坡_7
-      - 🇸🇬 【ER3_SG】SG/新加坡_8
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_1
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_2
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_3
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_4
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_5
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_6
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_7
-      - 🇦🇺 【ER3_AU】AU/澳大利亚_8
-      - 🇨🇦 【ER3_CA】CA/加拿大_1
-      - 🇨🇦 【ER3_CA】CA/加拿大_2
-      - 🇨🇦 【ER3_CA】CA/加拿大_3
-      - 🇨🇦 【ER3_CA】CA/加拿大_4
-      - 🇨🇦 【ER3_CA】CA/加拿大_5
-      - 🇨🇦 【ER3_CA】CA/加拿大_6
-      - 🇨🇦 【ER3_CA】CA/加拿大_7
-      - 🇨🇦 【ER3_CA】CA/加拿大_8
-      - 🇬🇧 【ER3_UK】UK/英国_1
-      - 🇬🇧 【ER3_UK】UK/英国_2
-      - 🇬🇧 【ER3_UK】UK/英国_3
-      - 🇬🇧 【ER3_UK】UK/英国_4
-      - 🇬🇧 【ER3_UK】UK/英国_5
-      - 🇬🇧 【ER3_UK】UK/英国_6
-      - 🇬🇧 【ER3_UK】UK/英国_7
-      - 🇬🇧 【ER3_UK】UK/英国_8
-      - 🇺🇸 【ER3_US】US/美国_1
-      - 🇺🇸 【ER3_US】US/美国_2
-      - 🇺🇸 【ER3_US】US/美国_3
-      - 🇺🇸 【ER3_US】US/美国_4
-      - 🇺🇸 【ER3_US】US/美国_5
-      - 🇺🇸 【ER3_US】US/美国_6
-      - 🇺🇸 【ER3_US】US/美国_7
-      - 🇺🇸 【ER3_US】US/美国_8
+      - 183.240.9.28:29979
+      - 183.240.9.28:29980
+      - 183.240.9.28:29982
+      - 183.240.9.28:29983
+      - 183.240.9.28:29984
+      - 183.240.9.28:29987
+      - 183.240.9.28:29988
+      - 120.232.251.206:29979
+      - 120.232.251.206:29980
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
