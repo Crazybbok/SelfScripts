@@ -89,7 +89,6 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - youtube:8度科技_香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
