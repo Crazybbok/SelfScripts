@@ -45,7 +45,6 @@ proxies:
     port: 41103
     udp: true
     skip-cert-verify: false
-    sni: ca6.3589643.xyz
     type: hysteria2
     password: c58c884f-1b11-405d-944f-bea594e1cc9c
 proxy-groups:
