@@ -99,7 +99,7 @@ rules:
   - RULE-SET,reject_non_ip_no_drop,REJECT
   - RULE-SET,cdn_domainset,🎯 节点选择
   - RULE-SET,cdn_non_ip,🎯 节点选择
-  - RULE-SET,stream_non_ip,🇺🇸 美国节点
+  - RULE-SET,stream_non_ip,🎯 节点选择
   - RULE-SET,telegram_non_ip,✈️ 电报信息
   - RULE-SET,apple_cdn,DIRECT
   - RULE-SET,download_domainset,🎯 节点选择
@@ -116,7 +116,7 @@ rules:
   - RULE-SET,lan_non_ip,DIRECT
   - RULE-SET,reject_ip,REJECT
   - RULE-SET,telegram_ip,✈️ 电报信息
-  - RULE-SET,stream_ip,🇺🇸 美国节点
+  - RULE-SET,stream_ip,🎯 节点选择
   - RULE-SET,neteasemusic_ip,🎧 网易云
   - RULE-SET,lan_ip,DIRECT
   - RULE-SET,domestic_ip,DIRECT
