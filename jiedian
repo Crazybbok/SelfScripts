@@ -1,4 +1,580 @@
-vmess://YXV0bzpjNThjODg0Zi0xYjExLTQwNWQtOTQ0Zi1iZWE1OTRlMWNjOWNAdGltZS5pczo4MA?remarks=CA6Vmess&obfsParam=ca6.3589643.xyz&path=/c58c884f-1b11-405d-944f-bea594e1cc9c-vmess&obfs=websocket&alterId=0
-hysteria2://c58c884f-1b11-405d-944f-bea594e1cc9c@155.248.223.52:41103?insecure=1&alpn=h3&obfs=none#CA6%20hysteria2
-vmess://YXV0bzoyOTFmOTVlNS1iMDliLTQ2MTQtOTM5NC00OGUwMjJjNWY2MzZAc3RvY2suaG9zdG1vbml0LmNvbToyMDUy?remarks=CA4%20vmess&obfsParam=ggb.3589643.xyz&path=/291f95e5-b09b-4614-9394-48e022c5f636-vmess&obfs=websocket&alterId=0
-hysteria2://291f95e5-b09b-4614-9394-48e022c5f636@40.233.87.141:59704?insecure=1&alpn=h3&obfs=none#CA4%20hysteria2
+mixed-port: 7890
+allow-lan: false
+bind-address: "*"
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: false
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://doh.dns.sb/dns-query
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.twnic.tw/dns-query
+    - tls://8.8.4.4:853
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+  prefer-h3: true
+  respect-rules: true
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - "*"
+    - +.lan
+    - +.local
+    - time.*.com
+    - ntp.*.com
+    - +.market.xiaomi.com
+  use-system-hosts: false
+proxies:
+  - name: 加拿大6
+    server: 155.248.223.52
+    port: 41103
+    udp: true
+    skip-cert-verify: false
+    sni: ca6.3589643.xyz
+    type: hysteria2
+    password: c58c884f-1b11-405d-944f-bea594e1cc9c
+proxy-groups:
+  - name: 🎯 节点选择
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 新加坡节点
+      - 🇺🇸 美国节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇹🇼 台湾节点
+      - AllIn
+      - DIRECT
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 新加坡节点
+      - 🇺🇸 美国节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇹🇼 台湾节点
+  - name: 🤖 AIGC
+    type: select
+    proxies:
+      - 🇺🇸 美国节点
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇹🇼 台湾节点
+      - DIRECT
+  - name: ✈️ 电报信息
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 新加坡节点
+      - 🇺🇸 美国节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇹🇼 台湾节点
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 新加坡节点
+      - 🇺🇸 美国节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇹🇼 台湾节点
+  - name: 🎧 网易云
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 新加坡节点
+      - 🇺🇸 美国节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇹🇼 台湾节点
+  - name: 🇭🇰 香港节点
+    type: select
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: true
+    filter: ^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+  - name: 🇯🇵 日本节点
+    type: select
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: true
+    filter: ^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+  - name: 🇰🇷 韩国节点
+    type: select
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: true
+    filter: ^(?=.*((?i)🇰🇷|韩国|韓|首尔|(\b(KR|Korea)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+  - name: 🇸🇬 新加坡节点
+    type: select
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: true
+    filter: ^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+  - name: 🇺🇸 美国节点
+    type: select
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: true
+    filter: ^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United
+      States)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+  - name: 🇬🇧 英国节点
+    type: select
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: true
+    filter: ^(?=.*((?i)🇬🇧|英国|伦敦|(\b(UK|United
+      Kingdom)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+  - name: 🇫🇷 法国节点
+    type: select
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: true
+    filter: ^(?=.*((?i)🇫🇷|法国|(\b(FR|France)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+  - name: 🇩🇪 德国节点
+    type: select
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: true
+    filter: ^(?=.*((?i)🇩🇪|德国|(\b(DE|Germany)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+  - name: 🇹🇼 台湾节点
+    type: select
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: true
+    filter: ^(?=.*((?i)🇹🇼|台湾|(\b(TW|Taiwan)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+  - name: Others
+    type: select
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: true
+    filter: ^(?!.*(🇭🇰|HK|hk|香港|港|HongKong|🇹🇼|TW|tw|台湾|臺灣|台|Taiwan|🇯🇵|JP|jp|日本|日|Japan|🇸🇬|SG|sg|新加坡|狮|Singapore|🇺🇸|US|us|美国|美|United
+      States|🇩🇪|DE|de|德国|德|Germany|🇬🇧|GB|gb|英国|英|United
+      Kingdom|🇰🇷|KR|kr|韩国|韩|South Korea|🇫🇷|FR|fr|法国|法|France)).*$
+  - name: AllIn
+    type: select
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: true
+    filter: ^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|(\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author)\b|(\d{4}-\d{2}-\d{2}|\d+G)))).*$
+rules:
+  - RULE-SET,reject_non_ip,REJECT
+  - RULE-SET,reject_domainset,REJECT
+  - RULE-SET,reject_non_ip_drop,REJECT-DROP
+  - RULE-SET,reject_non_ip_no_drop,REJECT
+  - RULE-SET,cdn_domainset,🎯 节点选择
+  - RULE-SET,cdn_non_ip,🎯 节点选择
+  - RULE-SET,stream_non_ip,🇺🇸 美国节点
+  - RULE-SET,telegram_non_ip,✈️ 电报信息
+  - RULE-SET,apple_cdn,DIRECT
+  - RULE-SET,download_domainset,🎯 节点选择
+  - RULE-SET,download_non_ip,🎯 节点选择
+  - RULE-SET,microsoft_cdn_non_ip,DIRECT
+  - RULE-SET,apple_cn_non_ip,DIRECT
+  - RULE-SET,apple_services,🍎 苹果服务
+  - RULE-SET,microsoft_non_ip,Ⓜ️ 微软服务
+  - RULE-SET,ai_non_ip,🤖 AIGC
+  - RULE-SET,global_non_ip,🎯 节点选择
+  - RULE-SET,neteasemusic_non_ip,🎧 网易云
+  - RULE-SET,domestic_non_ip,DIRECT
+  - RULE-SET,direct_non_ip,DIRECT
+  - RULE-SET,lan_non_ip,DIRECT
+  - RULE-SET,reject_ip,REJECT
+  - RULE-SET,telegram_ip,✈️ 电报信息
+  - RULE-SET,stream_ip,🇺🇸 美国节点
+  - RULE-SET,neteasemusic_ip,🎧 网易云
+  - RULE-SET,lan_ip,DIRECT
+  - RULE-SET,domestic_ip,DIRECT
+  - RULE-SET,china_ip,DIRECT
+  - MATCH,🎯 节点选择
+unified-delay: false
+tcp-concurrent: false
+find-process-mode: strict
+global-client-fingerprint: chrome
+profile:
+  store-selected: true
+  store-fake-ip: true
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports:
+        - 80
+        - 443
+      override-destination: false
+    TLS:
+      ports:
+        - 443
+    QUIC:
+      ports:
+        - 443
+  skip-domain:
+    - +.push.apple.com
+  parse-pure-ip: true
+  force-dns-mapping: true
+  override-destination: false
+tun:
+  enable: false
+  stack: mixed
+  device: Mihomo
+  dns-hijack:
+    - any:53
+  auto-route: true
+  auto-detect-interface: true
+  strict-route: true
+  auto-redirect: false
+  mtu: 1500
+ipv6: true
+udp: true
+NodeParam:
+  type: http
+  interval: 86400
+  health-check:
+    enable: true
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    interval: 60
+proxy-providers:
+  我的节点:
+    url: 替换订阅链接
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://connectivitycheck.platform.hicloud.com/generate_204
+      interval: 60
+    path: ./proxy_provider/providers.yaml
+FilterHK: ^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+FilterJP: ^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+FilterKR: ^(?=.*((?i)🇰🇷|韩国|韓|首尔|(\b(KR|Korea)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+FilterSG: ^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+FilterUS: ^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United
+  States)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+FilterUK: ^(?=.*((?i)🇬🇧|英国|伦敦|(\b(UK|United
+  Kingdom)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+FilterFR: ^(?=.*((?i)🇫🇷|法国|(\b(FR|France)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+FilterDE: ^(?=.*((?i)🇩🇪|德国|(\b(DE|Germany)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+FilterTW: ^(?=.*((?i)🇹🇼|台湾|(\b(TW|Taiwan)\b)))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$
+FilterOthers: ^(?!.*(🇭🇰|HK|hk|香港|港|HongKong|🇹🇼|TW|tw|台湾|臺灣|台|Taiwan|🇯🇵|JP|jp|日本|日|Japan|🇸🇬|SG|sg|新加坡|狮|Singapore|🇺🇸|US|us|美国|美|United
+  States|🇩🇪|DE|de|德国|德|Germany|🇬🇧|GB|gb|英国|英|United
+  Kingdom|🇰🇷|KR|kr|韩国|韩|South Korea|🇫🇷|FR|fr|法国|法|France)).*$
+FilterAll: ^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|(\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author)\b|(\d{4}-\d{2}-\d{2}|\d+G)))).*$
+Select:
+  type: select
+  url: http://connectivitycheck.platform.hicloud.com/generate_204
+  disable-udp: false
+  hidden: false
+  include-all: true
+RuleSet_classical:
+  type: http
+  behavior: classical
+  interval: 43200
+  format: text
+  proxy: 🎯 节点选择
+RuleSet_domain:
+  type: http
+  behavior: domain
+  interval: 43200
+  format: text
+  proxy: 🎯 节点选择
+RuleSet_ipcidr:
+  type: http
+  behavior: ipcidr
+  interval: 43200
+  format: text
+  proxy: 🎯 节点选择
+rule-providers:
+  reject_non_ip_no_drop:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/reject-no-drop.txt
+    path: ./rule_set/sukkaw_ruleset/reject_non_ip_no_drop.txt
+  reject_non_ip_drop:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/reject-drop.txt
+    path: ./rule_set/sukkaw_ruleset/reject_non_ip_drop.txt
+  reject_non_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/reject.txt
+    path: ./rule_set/sukkaw_ruleset/reject_non_ip.txt
+  reject_domainset:
+    type: http
+    behavior: domain
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/domainset/reject.txt
+    path: ./rule_set/sukkaw_ruleset/reject_domainset.txt
+  reject_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/ip/reject.txt
+    path: ./rule_set/sukkaw_ruleset/reject_ip.txt
+  cdn_domainset:
+    type: http
+    behavior: domain
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/domainset/cdn.txt
+    path: ./rule_set/sukkaw_ruleset/cdn_domainset.txt
+  cdn_non_ip:
+    type: http
+    behavior: domain
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/cdn.txt
+    path: ./rule_set/sukkaw_ruleset/cdn_non_ip.txt
+  stream_non_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/stream.txt
+    path: ./rule_set/sukkaw_ruleset/stream_non_ip.txt
+  stream_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/ip/stream.txt
+    path: ./rule_set/sukkaw_ruleset/stream_ip.txt
+  ai_non_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/ai.txt
+    path: ./rule_set/sukkaw_ruleset/ai_non_ip.txt
+  telegram_non_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/telegram.txt
+    path: ./rule_set/sukkaw_ruleset/telegram_non_ip.txt
+  telegram_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/ip/telegram.txt
+    path: ./rule_set/sukkaw_ruleset/telegram_ip.txt
+  apple_cdn:
+    type: http
+    behavior: domain
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt
+    path: ./rule_set/sukkaw_ruleset/apple_cdn.txt
+  apple_services:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/apple_services.txt
+    path: ./rule_set/sukkaw_ruleset/apple_services.txt
+  apple_cn_non_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt
+    path: ./rule_set/sukkaw_ruleset/apple_cn_non_ip.txt
+  microsoft_cdn_non_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt
+    path: ./rule_set/sukkaw_ruleset/microsoft_cdn_non_ip.txt
+  microsoft_non_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/microsoft.txt
+    path: ./rule_set/sukkaw_ruleset/microsoft_non_ip.txt
+  neteasemusic_non_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/neteasemusic.txt
+    path: ./rule_set/sukkaw_ruleset/neteasemusic_non_ip.txt
+  neteasemusic_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/ip/neteasemusic.txt
+    path: ./rule_set/sukkaw_ruleset/neteasemusic_ip.txt
+  download_domainset:
+    type: http
+    behavior: domain
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/domainset/download.txt
+    path: ./rule_set/sukkaw_ruleset/download_domainset.txt
+  download_non_ip:
+    type: http
+    behavior: domain
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/download.txt
+    path: ./rule_set/sukkaw_ruleset/download_non_ip.txt
+  lan_non_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/lan.txt
+    path: ./rule_set/sukkaw_ruleset/lan_non_ip.txt
+  lan_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/ip/lan.txt
+    path: ./rule_set/sukkaw_ruleset/lan_ip.txt
+  domestic_non_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/domestic.txt
+    path: ./rule_set/sukkaw_ruleset/domestic_non_ip.txt
+  direct_non_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/direct.txt
+    path: ./rule_set/sukkaw_ruleset/direct_non_ip.txt
+  global_non_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/non_ip/global.txt
+    path: ./rule_set/sukkaw_ruleset/global_non_ip.txt
+  domestic_ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/ip/domestic.txt
+    path: ./rule_set/sukkaw_ruleset/domestic_ip.txt
+  china_ip:
+    type: http
+    behavior: ipcidr
+    interval: 43200
+    format: text
+    proxy: 🎯 节点选择
+    url: https://ruleset.skk.moe/Clash/ip/china_ip.txt
+    path: ./rule_set/sukkaw_ruleset/china_ip.txt
+secret: ""
+socks-port: 7891
+port: 7892
+redir-port: 0
+tproxy-port: 0
+geo-auto-update: true
+geo-update-interval: 24
+geodata-mode: false
+geox-url:
+  geoip: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat
+  geosite: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
+  mmdb: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb
+  asn: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb
+skip-auth-prefixes:
+  - 127.0.0.1/32
+authentication: []
+lan-allowed-ips:
+  - 0.0.0.0/0
+  - ::/0
+lan-disallowed-ips: []
