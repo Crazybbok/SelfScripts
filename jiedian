@@ -47,7 +47,8 @@ proxies:
     skip-cert-verify: true
     type: hysteria2
     password: c58c884f-1b11-405d-944f-bea594e1cc9c
-  - {"type":"vless","name":"claw-hk-7r3d72ut","server":"ggggbond.3589643.xyz","port":57045,"uuid":"b0de61f3-821a-4d0b-8a3c-e8c239741df0","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ggggbond.3589643.xyz","ws-opts":{"path":"/b0de61f3","headers":{"host":"ggggbond.3589643.xyz"}}}
+  
+- {"type":"vless","name":"claw-hk-7r3d72ut","server":"ggggbond.3589643.xyz","port":57045,"uuid":"b0de61f3-821a-4d0b-8a3c-e8c239741df0","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ggggbond.3589643.xyz","ws-opts":{"path":"/b0de61f3","headers":{"host":"ggggbond.3589643.xyz"}}}
 proxy-groups:
   - name: 🎯 节点选择
     type: select
